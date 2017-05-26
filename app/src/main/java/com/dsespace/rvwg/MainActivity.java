@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         //load the webview
         rvwg_home = (WebView) findViewById(R.id.webview); //edited the original syntax from google to prevent from crashing by killing the whole activity
-        rvwg_home.loadUrl("http://hp.rvwg-web.de/index.php?id=209");
+        rvwg_home.loadUrl("http://www.rvwg.de/webviews/login");
 
         //make it possible to run JavaScript
         WebSettings webSettings = rvwg_home.getSettings();
